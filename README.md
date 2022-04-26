@@ -4,7 +4,11 @@ Calendario de vacunción para mascotas
 
 # Integrantes del proyecto:
 
-Luciano Tebaldi, Matias Rodriguez, Franco Bartet, Ramiro Busto, Joaquin Castillo. 
+* Luciano Tebaldi
+* Matias Rodriguez
+* Franco Bartet
+* Ramiro Busto
+* Joaquin Castillo. 
 
 # De que trata el proyecto: 
 
