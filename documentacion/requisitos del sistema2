@@ -2,12 +2,16 @@ Calendario de vacunacion.
 
 Obtencion y analisis de requerimientos:
 
-El dominio de la aplicacion es pagina web.
+El dominio  en el que estara situado el  Calendario , es en una pagina web.
 El sistema debe proporcionar facilidad a la hora de ver el calendario de vacunacion de nuestras mascotas, y que nos deje crear usuarios los cuales tengan su propia informacion guardada en una base de datos.
 Solo teniendo acceso a internet se podra ingresar a la pagina web desde cualquier dispositivo.
 
 
+
 Especificacion de requerimientos:
+
+Para ingresar  a la pagina web deberemos contar con una conexion estable.
+Este sistema contara con un tiempo de respuesta estable, para poder acceder desde cualquier dispositivo, en cualquier momento.
 
 
 
