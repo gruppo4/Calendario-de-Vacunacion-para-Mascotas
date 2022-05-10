@@ -7,7 +7,7 @@ Calendario de vacunción para mascotas
 * **Luciano Tebaldi**   Proyect manager
 * **Matias Rodriguez**  front end
 * **Franco Bartet**     back end
-* **Ramiro Busto**      testing
+* **Ramiro Busto**      testing ramirobus81@gmail.com
 * **Joaquin Castillo**. dba 
 
 # De que trata el proyecto: 
