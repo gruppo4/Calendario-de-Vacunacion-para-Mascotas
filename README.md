@@ -4,11 +4,11 @@ Calendario de vacunción para mascotas
 
 # Integrantes del proyecto:
 
-* **Luciano Tebaldi**   Proyect manager
-* **Matias Rodriguez**  front end
-* **Franco Bartet**     back end
-* **Ramiro Busto**      testing ramirobus81@gmail.com
-* **Joaquin Castillo**. dba 
+* **Luciano Tebaldi**   Proyect manager Luchotebaldi@gmail.com
+* **Matias Rodriguez**  front end       Matiherodri@gmail.com
+* **Franco Bartet**     back end        Francobartet@gmail.com
+* **Ramiro Busto**      testing         Ramirobus81@gmail.com
+* **Joaquin Castillo**. dba             Joacocastillo1422@gmail.com
 
 # De que trata el proyecto: 
 
