@@ -1,6 +1,10 @@
 # Nombre del proyecto : 
 
-Calendario de vacunción para mascotas   
+Calendario de vacunción para mascotas
+
+# Contacto :
+
+mascotasvacunacion@gmail.com
 
 # Integrantes del proyecto:
 
