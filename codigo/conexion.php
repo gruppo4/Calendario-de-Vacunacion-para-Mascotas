@@ -1,18 +1,27 @@
 <?php
 $db_host = "local_host";
-$usuario = "nombre_de_usuario_bd";
-$psw = "contraseña_bd";
-$nombre_basededatos = "nombre_bada";
-$nombre = $_POST['nombreU'];
-$contra = $_POST['contra'];
+$usuario = "id19436154_root";
+$psw = "gF#*[x^rf1c/^imn";
+$nombre_basededatos = "id19436154_main";
+$nom = $_POST['nom'];
+$psw = $_POST['psw'];
 
-$conn = mysqlconnect($dbhost,$usuario,$psw,$nombre_basededatos);
-$resultado = mysqli_query($conn,"select * from sesion where nombre='$nombre' AND pass='$contra'");
+$conn = mysqli_connect($dbhost,$usuario,$psw,$nombre_basededatos);
+$resultado = mysqli_query($conn,"SELECT * FROM users where nom='$nom' AND psw='$psw'");
 $filas = mysqli_num_rows($resultado);
-if ($filas>0){
-	echo"conexion y log establecido";}
-	else{
-	echo"user o contra incorrecta";}
+
+if ($filas > 0){
+header('Location: https://www.youtube.com/');
+}else{
+header('Location: https://hindermost-temper.000webhostapp.com/index.html');
+}
+
+#if ($conn){
+ #   echo('cp');
+#}else{
+ #   echo('no');
+#}
+
 mysqli_free_result($resultado);
 mysqli_close($conn);
 
