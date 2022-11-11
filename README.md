@@ -8,11 +8,11 @@ mascotasvacunacion@gmail.com
 
 # Integrantes del proyecto:
 
-* **Luciano Tebaldi**   Proyect manager Luchotebaldi@gmail.com
-* **Matias Rodriguez**  front end       Matiherodri@gmail.com
-* **Franco Bartet**     back end        Francobartet@gmail.com
-* **Ramiro Busto**      testing         Ramirobus81@gmail.com
+* **Matias Rodriguez**  Proyect manager Matiherodri@gmail.com
+* **Luciano Tebaldi**   Frontend Luchotebaldi@gmail.com
+* **Franco Bartet**     Frontend        Francobartet@gmail.com
 * **Joaquin Castillo**. dba             Joacocastillo1422@gmail.com
+* **Ramiro Busto**      testing         Ramirobus81@gmail.com
 
 # De que trata el proyecto: 
 
