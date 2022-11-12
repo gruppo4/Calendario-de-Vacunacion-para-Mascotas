@@ -53,7 +53,7 @@ body {
  outline-color: #e8e8e8;
  background: #e8e8e8;
  box-shadow: inset 20px 20px 60px #c5c5c5,
-		inset -20px -20px 60px #ffffff;
+  inset -20px -20px 60px #ffffff;
  transition: 0.3s;
 }
 

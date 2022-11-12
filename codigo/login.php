@@ -7,7 +7,7 @@ $nombre = $_POST['nombre'];
 $contra = $_POST['psw'];
 
 $conn = mysqli_connect($dbhost, $usuario, $psw, $nombreBADA);
-$resultado = mysqli_query($conn, "Select * from dueño where nombre = '$nombre' AND psw = '$contra'");
+$resultado = mysqli_query($conn, "SELECT * from dueño where nombre = '$nombre' AND psw = '$contra'");
 $filas = mysqli_num_rows($resultado);
 
 if ($filas>0){

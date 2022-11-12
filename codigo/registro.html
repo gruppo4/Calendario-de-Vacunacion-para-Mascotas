@@ -19,16 +19,18 @@
       <div class="caja">
         <div class="centrar">
           <img class="logo" src="./img/logo.png">
-          <input type= "text" name = "nombre" placeholder="Nombre usuario" required id="nombre">
+          <form class="input" method="post" action="registro.php">
+          <input type= "text" name = "nombre" class="input" placeholder="Nombre usuario" required id="nombre">
           <br>
-          <input type="email" name="text" class="input" placeholder="E-Mail">
+          <input type="email" name="text" class="input" placeholder="E-Mail" required id="email">
           <br>
-          <input type="direccion" name="text" class="input" placeholder="Direccion">
+          <input type="direccion" name="text" class="input" placeholder="Direccion" required id="direccion">
           <br>
-          <input type= "password" name = "psw" placeholder="Contraseña" required id="psw">
+          <input type= "password" name = "psw" class="input" placeholder="Contraseña" required id="psw">
           <br>
           <a href="registromascota.html" class="button">
           <button> Crear Cuenta </button>
+          </form>
         </div>
 
     </body>

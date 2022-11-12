@@ -8,16 +8,16 @@ $correo = $_POST['email'];
 $direccion = $_POST['direccion'];
 $contra = $_POST['psw'];
 
-    $conn = mysqli_connect($dbhost, $usuario, $psw, $nombreBADA);
+$conn = mysqli_connect($dbhost, $usuario, $psw, $nombreBADA);
     
-    $registrar = "INSERT INTO dueño(nombre, email, direccion, psw) VALUES ('$nombre', '$correo', '$direccion', '$contra');";
+$registrar = "INSERT INTO dueño(nombre, email, direccion, psw) VALUES ('$nombre', '$correo', '$direccion', '$contra');";
     
-    $consulta = mysqli_query($conn, $registrar);
+$consulta = mysqli_query($conn, $registrar);
     
-    if($consulta){
-        header("Location: https://vacunacionmascotas.000webhostapp.com/registromascota.html");
-    }else{
-        echo("No se pudo registrar");
-    }
+if($consulta){
+    header("Location: https://vacunacionmascotas.000webhostapp.com/registromascota.html");
+}else{
+     echo("No se pudo registrar");
+}
     
 ?>
