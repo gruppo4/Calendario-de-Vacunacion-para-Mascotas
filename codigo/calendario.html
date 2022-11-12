@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Calendario</title> 
+<link rel="stylesheet" type="text/css" href="calendario.css" media="all" />
+<script type="text/javascript" src="calendario.js"></script>
+</head>
+<body>
+
+<header>
+    
+  <div id="top-header">
+
+    <div>
+      <img id="logo" src="logo.jpeg" />
+    </div>
+      
+    <div>
+      <img id="user" src="user.png" />
+      <p id="perfil-texto"> MI PERFIL </p>
+    </div>
+
+  </div>
+</header>
+
+
+
+<div id="calendario">
+  <div id="anterior" onclick="mesantes()"></div>
+  <div id="posterior" onclick="mesdespues()"></div>
+  <h2 id="titulos"></h2>
+  <table id="diasc">
+    <tr id="fila0"><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+    <tr id="fila1"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr id="fila2"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr id="fila3"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr id="fila4"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr id="fila5"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr id="fila6"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+  </div>
+
+
+
+   <div>
+  <a href="#" class="btton">agregar  fecha</a>
+    </div> 
+
+  <div id="fechaactual"></div>
+  <div id="hoy" onclick="actualizar()"> <p> HOY </p> </div>
+  
+<section class="modal">
+  <div class=" modal__container">
+    <h2 class="modal__title">Que fecha  hay que guardar?</h2>
+      <p class="modal__paragraph">
+        <form action="calendario.php" method="post" accept-charset="utf-8">
+            <div class="campoA">>
+            <label>fecha:<br><input type="datetime-local" name="fecha" value="" class="campos"></label>
+            <label>mascota<br><br><input type="text" name="mascosta" value="" class="campos"></label>
+            </div>
+            <div class="campoB">
+            <label>vacuna:<br><br><input type="text" name="vacuna" value="" class="campos"></label>
+            <label>tipo de vacuna<br><br><input type="text" name="Tipovacuna" value="" class="campos"></label>
+            </div>
+    
+           <input type="submit" name="ingresar" value="guardar fecha" class="modal__close">
+        </form>
+    </div>
+  </section>
+  <script src="boton.js"></script>
+</body>
+</html>
